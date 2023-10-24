@@ -1,6 +1,5 @@
-a = int(input('first equals'))
-b = int(input('q'))
-c = int(input('number'))
-        
-d = (a * (b**(c-1)))
-print(d)
+a = int(input( "первый член" ))
+b = int( input('знаменатель'))
+c = int(input('количество '))
+for i in range(0, c, 1):
+    print (a*(b**(i-1)))  
