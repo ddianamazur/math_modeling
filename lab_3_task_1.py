@@ -1,0 +1,11 @@
+speed_of_light = 2.998*10**8
+avagadros_number = 6.023*10**23
+mass_of_electron = 9.1*10(-31)
+mass_of_proton = 1.6726*10(-27)
+electron_charge = 2.2*10(-8)
+standart_atmosphere = 1.01325*10**5
+mass_of_neutron = 1.6749*10**(-27)
+planck_constant = 6.63*10**(-34)
+molar_gas_constant = 8.314
+boltzmann_constant = 1.38*10(-23)
+acceleration_of_gravity = 9.8
