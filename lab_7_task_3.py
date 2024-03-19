@@ -20,4 +20,4 @@ def update(t):
 ani = FuncAnimation(fig, update, frames=np.arange(0, 2*np.pi, 0.1), interval=100) 
  
 ani.save('animation_5.gif')
-ani.save('animation_5.gif')
+
