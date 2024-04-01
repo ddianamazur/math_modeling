@@ -8,8 +8,8 @@ anim_object, = plt.plot([], [], '-', lw = 2)
 
 xdata, ydata = [], []
 
-ax.set_xlim(0, 2 * np.pi)
-ax.set_ylim(-1,1) 
+ax.set_xlim(0, 5 * np.pi)
+ax.set_ylim(-2,2) 
 
 def update(frame):
     xdata.append(frame)
@@ -17,6 +17,6 @@ def update(frame):
     anim_object.set_data(xdata,ydata)
     return anim_object,
 
-ani = FuncAnimation (fig, update, frames = np.arange(0,2*np.pi,0.1), interval = 50)
+ani = FuncAnimation (fig, update, frames = np.arange(0,5*np.pi,0.3), interval = 100)
 
 ani.save('animation_7.gif')
