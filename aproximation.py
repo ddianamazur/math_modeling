@@ -20,6 +20,10 @@ x = 4+3*np.cos(t)
 y = 7 + 5*np.sin(t)
 ax.plot(x, y, '-',lw = 2, color = 'k')
 
+t = np.linspace(np.pi/2 + np.pi/6,np.pi/2 - np.pi/6,100 )
+x = 3+1.5*np.cos(t)
+y = 4 + 2*np.sin(t)
+
 plt.axis('equal')
 plt.savefig('KILL.png')
 
